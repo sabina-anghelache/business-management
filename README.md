@@ -12,4 +12,17 @@ product details and sales transactions.
 
 # DESIGNING REST API
 
-The REST API design 
+The REST API design revolves around three key entities: Client, Product and Sale. 
+The client will have: 
+  • Capability to store customer information, allowing addition, modification, and retrieval of customer details.
+  • Registration of new customers, modification of existing customer information, and retrieval of specific customer 
+  information are integral functionalities.
+The product will have: 
+  • Storage of product information, including name, price, available stock, and other relevant details.
+  • Operations such as adding a new product, modifying existing product information, accessing specific product details 
+and updating available stock are essential.
+The sale will have: 
+  • Logging information related to sales, encompassing the product sold, the customer involved, quantity,
+selling price, and other pertinent details.
+  • Functions include registering a new sale, retrieving information about a specific sale, obtaining all sales 
+for a particular product, and retrieving all purchases made by a specific customer.
