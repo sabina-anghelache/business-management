@@ -8,7 +8,7 @@ the best experience for both the company and its customers.
 # TECHNOLOGY SELECTION
 For this application, the technology used is Elasticsearch, a scalable search engine. It will facilitate
 efficient data indexing and retrieval, ensuring optimal performance for managing customer information,
-product details and sales transactions. 
+product details and sales transactions. For the frontend, React will be used. 
 
 # DESIGNING REST API
 
