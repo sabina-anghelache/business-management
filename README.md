@@ -19,15 +19,11 @@ The REST API design revolves around three key entities: Employee.
 
 These functionalities that the application will provide will be made using: 
 1. GET METHOD
-  - GET/employees - to retrieve a list of all clients
-  - GET/employees/{id} - to retrieve details of a specific client by ID
+  - GET/employees - to retrieve a list of all employees
+  - GET/employees/{id} - to retrieve details of a specific employee by ID
 2. POST METHOD
-  - POST/employees - to add new client
+  - POST/employees - to add new employee
 3. PUT METHOD
-  - PUT/employees/{id} - to modify an existing client's information
-  - PUT/products/{id} - to modify an existing product's information
-  - PUT/sales/{id} - to modify an existing sale's information
+  - PUT/employees/{id} - to modify an existing employee's information
 4. DELETE METHOD
-  - DELETE/clients/{id} - to delete a client by ID
-  - DELETE/products/{id} - to delete a product by ID
-  - DELETE/sales/{id} - to delete a sale by ID
+  - DELETE/employees/{id} - to delete an employee by ID
