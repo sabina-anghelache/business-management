@@ -27,3 +27,34 @@ These functionalities that the application will provide will be made using:
   - PUT/employees/{id} - to modify an existing employee's information
 4. DELETE METHOD
   - DELETE/employees/{id} - to delete an employee by ID
+
+# ELASTIC SEARCH MAPPING
+PUT /business_management_index
+{
+  "mappings": {
+    "properties": {
+      "employee_id": {
+        "type": "keyword"
+      },
+      "full_name": {
+        "type": "text"
+      },
+      "position": {
+        "type": "text"
+      },
+      "hire_date": {
+        "type": "date"
+      },
+      "salary": {
+        "type": "double"
+      },
+      "address": {
+        "type": "text"
+      },
+      "email": {
+        "type": "text"
+      }
+    }
+  }
+}
+
