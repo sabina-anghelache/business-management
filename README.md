@@ -36,7 +36,7 @@ PUT /business_management_index
       "employee_id": {
         "type": "keyword"
       },
-      "full_name": {
+      "name": {
         "type": "text"
       },
       "position": {
